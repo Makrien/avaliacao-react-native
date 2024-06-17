@@ -139,7 +139,7 @@ export default function Index() {
             return (
               <TouchableOpacity activeOpacity={.7} style={styles.newsCard}>
                 <View style={styles.imgHeadline}>
-                  <Image 
+                  <Image
                     style={styles.newsImg}
                     source={{
                       uri: `${item.img}`,

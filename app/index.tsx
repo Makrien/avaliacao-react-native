@@ -6,7 +6,16 @@ import IconF from 'react-native-vector-icons/Feather';
 import { useState } from "react";
 import heartIcon from '../src/assets/icons/heart-icon.png';
 import copyIcon from '../src/assets/icons/copy-icon.png';
-import userIcon from '../src/assets/icons/user-icon.png'
+import userIcon from '../src/assets/icons/user-icon.png';
+import notebookIcon from '../src/assets/icons/notebook-icon.png';
+import cameraIcon from '../src/assets/icons/camera-icon.png';
+import closedEyeIcon from '../src/assets/icons/close-eye-icon.png';
+import newspaperIcon from '../src/assets/icons/newspaper-icon.png';
+import lessonIcon from '../src/assets/icons/lesson-icon.png';
+import dictionaryIcon from '../src/assets/icons/dictionary-icon.png';
+import examIcon from '../src/assets/icons/exam-icon.png';
+import filmIcon from '../src/assets/icons/film-icon.png';
+
 
 export default function Index() {
   const [news, setNews] = useState([
@@ -147,6 +156,43 @@ export default function Index() {
           }}
         />
       </ScrollView>
+
+      <View style={styles.footerRow1}>
+        <TouchableOpacity style={styles.footerRow1Left} activeOpacity={.7}>
+          <Image source={notebookIcon} style={styles.footerIcon} />
+          <Text style={styles.footerRow1Text}>Notebook</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.cameraIconContainer} activeOpacity={.9}>
+          <Image source={cameraIcon} tintColor={'white'} style={styles.cameraIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.footerRow1Right} activeOpacity={.7}>
+          <Image source={closedEyeIcon} style={styles.footerIcon} />
+          <Text style={styles.footerRow1Text}>Furigana</Text>
+        </TouchableOpacity>
+      </View>
+
+      <View style={styles.footerRow2}>
+          <TouchableOpacity style={styles.footerRow2Item} activeOpacity={.7}>
+            <Image source={newspaperIcon} style={styles.footerRow2Icon} tintColor={'white'} />
+            <Text style={styles.footerRow2Text}>News</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.footerRow2Item} activeOpacity={.7}>
+            <Image source={lessonIcon} style={styles.footerRow2Icon} tintColor={'white'} />
+            <Text style={styles.footerRow2Text}>Lesson</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.footerRow2Item} activeOpacity={.7}>
+            <Image source={dictionaryIcon} style={styles.footerRow2Icon} tintColor={'white'} />
+            <Text style={styles.footerRow2Text}>Dictionary</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.footerRow2Item} activeOpacity={.7}>
+            <Image source={examIcon} style={styles.footerRow2Icon} tintColor={'white'} />
+            <Text style={styles.footerRow2Text}>JLPT</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.footerRow2Item} activeOpacity={.7}>
+            <Image source={filmIcon} style={styles.footerRow2Icon} tintColor={'white'} />
+            <Text style={styles.footerRow2Text}>More</Text>
+          </TouchableOpacity>
+      </View>
     </View>
   );
 }

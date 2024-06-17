@@ -3,190 +3,58 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#303030',
-    paddingHorizontal: 5,
-  },
-  upperHeader: {
-    height: 30,
-    backgroundColor: '#000'
-  },
-  mainHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    height: 56,
-    backgroundColor: '#212121'
-  },
-  headerIconsContainer: {
-    width: 100,
-    flexDirection: 'row',
-    justifyContent: 'space-evenly'
-
-  },
-  headerBtnContainer: {
-    flexDirection: 'row',
-  },
-  easyBtn: {
-    width: 72,
-    height: 36,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#fff',
-    borderWidth: .5,
-    borderColor: '#fff',
-    borderTopLeftRadius: 8,
-    borderBottomLeftRadius: 8,
+    // backgroundColor: "#066cff"
   },
-  easyBtnText: {
-    color: '#000',
-    fontSize: 12,
-  },
-  difficultBtn: {
-    width: 72,
-    height: 36,
+  gradient: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#212121',
-    borderWidth: .5,
-    borderColor: '#fff',
-    borderTopRightRadius: 8,
-    borderBottomRightRadius: 8,
-  },
-  difficultBtnText: {
-    color: '#fff',
-    fontSize: 12,
-  },
-  lowerHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    padding: 4,
-    height: 42
-  },
-  dropdownBtn: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 5,
-    height: 32,
-    width: 124,
-    borderWidth: .3,
-    borderColor: 'white',
-    borderRadius: 3,
-  },
-  dropdownBtnText: {
-    color: '#fff',
-    fontSize: 11,
-  },
-  dropdownBtnInfo: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: 32,
-  },
-  dropdownBtnQtd: {
-    color: '#e3993c',
-  },
-  lowerHeaderIcon: {
-    height: 32,
-    width: 32
-  },
-  newsContainer: {
-    // justifyContent: 'center',
-    // alignItems: 'center'
-  },
-  newsCard: {
-    height: 100,
-    padding: 8,
-    backgroundColor: '#424242',
-    marginVertical: 4,
-    borderRadius: 4,
-    borderBottomWidth: 1,
-    borderBottomColor: 'red'
-  },
-  imgHeadline: {
-    flexDirection: 'row',
-    marginBottom: 10,
-  },
-  newsImg: {
-    width: 100,
-    height: 56,
-  },
-  headline: {
-    color: '#fff',
-    fontSize: 16,
-    maxWidth: 260,
-    marginLeft: 4,
-  },
-  newsInfo: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-
-  },
-  newsInfoText: {
-    color: '#fff',
-    fontSize: 12,
-  },
-  footerRow1: {
-    flexDirection: 'row',
-    justifyContent: 'space-evenly',
-    height: 36,
-  },
-  footerRow1Left: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '50%',
-    backgroundColor: '#77afd0'
-  },
-  footerRow1Right: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '50%',
-    backgroundColor: '#8b8b8b'
-  },
-  cameraIconContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#f54336',
-    borderRadius: 50,
+    width: '100%',
+    height: '100%',
     position: 'absolute',
-    left: '43%',
-    bottom: 0,
-    zIndex: 1,
-    width: 48,
-    height: 48
   },
-  cameraIcon: {
-    height: 28,
-    width: 28
-  },
-  footerIcon: {
-    width: 24,
-    height: 24,
-    marginHorizontal: 10
-  },
-  footerRow1Text: {
-    color: 'white',
-  },
-  footerRow2: {
+  header: {
     flexDirection: 'row',
-    justifyContent: 'space-evenly',
-    paddingVertical: 8,
-    backgroundColor: '#212121'
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 40,
+    width: '100%',
+    height: 180,
+    position: 'absolute',
+    top: 0
   },
-  footerRow2Item: {
+  iconText: {
+    color: '#fff'
+  },
+  mainText: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: '700',
+  },
+  shazamBtn: {
     justifyContent: 'center',
     alignItems: 'center',
+    width: 200,
+    height: 200,
+    backgroundColor: '#4fb3fe',
+    borderRadius: 100,
+    marginTop: 50,
+    marginBottom: 100,
   },
-  footerRow2Icon: {
-    width: 20,
-    height: 20,
+  shazamIcon: {
+    width: 128,
+    height: 128,
   },
-  footerRow2Text: {
-    color: '#fff',
-    fontSize: 10,
-  },
+  searchBtn: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 80,
+    height: 80,
+    backgroundColor: '#4fb3fe',
+    borderRadius: 50,
+  }
 });
 
 export default styles

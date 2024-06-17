@@ -1,50 +1,13 @@
-# Welcome to your Expo app 👋
+# Avaliação individual da disciplina de React Native 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Introdução
 
-## Get started
+Este projeto consiste na produção visual das telas iniciais de dois aplicativos para android. São eles o **Shazam**, um app de identificação de mídia; e o **Todai**, que é um aplicativo com foco em aprendizado da língua japonesa.
 
-1. Install dependencies
+## Como visualizar as telas
 
-   ```bash
-   npm install
-   ```
+O projeto é único para ambas as aplicações. Por padrão, ele foi subido para o Github com os arquivos *index.tsx* e *styles.ts*, na pasta **/app** sendo referentes à tela do Shazam. Para visualizar a tela clone do Todai, basta renomear estes arquivos para outro qualquer, e renomear *index2.tsx* e *styles2.tsx* para *index.tsx* e *styles.ts*, respectivamente.
 
-2. Start the app
+## Observação
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Prints dos apps se encontram na pasta **/base-app-images**.

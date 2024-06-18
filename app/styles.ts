@@ -3,58 +3,122 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    // backgroundColor: "#066cff"
+    backgroundColor: '#303030',
+    paddingHorizontal: 5,
   },
-  gradient: {
-    flex: 1,
-    justifyContent: 'center',
+  mainHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
     alignItems: 'center',
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
+    height: 56,
+    backgroundColor: '#212121'
   },
-  header: {
+  headerIconsContainer: {
+    width: 100,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly'
+
+  },
+  headerBtnContainer: {
+    flexDirection: 'row',
+  },
+  newsContainer: {
+    // justifyContent: 'center',
+    // alignItems: 'center'
+  },
+  newsCard: {
+    height: 100,
+    padding: 8,
+    backgroundColor: '#424242',
+    marginVertical: 4,
+    borderRadius: 4,
+    borderBottomWidth: 1,
+    borderBottomColor: 'red'
+  },
+  imgHeadline: {
+    flexDirection: 'row',
+    marginBottom: 10,
+  },
+  newsImg: {
+    width: 100,
+    height: 56,
+  },
+  headline: {
+    color: '#fff',
+    fontSize: 16,
+    maxWidth: 260,
+    marginLeft: 4,
+  },
+  newsInfo: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 40,
-    width: '100%',
-    height: 180,
-    position: 'absolute',
-    top: 0
+
   },
-  iconText: {
-    color: '#fff'
-  },
-  mainText: {
+  newsInfoText: {
     color: '#fff',
-    fontSize: 24,
-    fontWeight: '700',
+    fontSize: 12,
   },
-  shazamBtn: {
+  footerRow1: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    height: 36,
+  },
+  footerRow1Left: {
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    width: 200,
-    height: 200,
-    backgroundColor: '#4fb3fe',
-    borderRadius: 100,
-    marginTop: 50,
-    marginBottom: 100,
+    width: '50%',
+    backgroundColor: '#77afd0'
   },
-  shazamIcon: {
-    width: 128,
-    height: 128,
-  },
-  searchBtn: {
+  footerRow1Right: {
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    width: 80,
-    height: 80,
-    backgroundColor: '#4fb3fe',
+    width: '50%',
+    backgroundColor: '#8b8b8b'
+  },
+  cameraIconContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f54336',
     borderRadius: 50,
-  }
+    position: 'absolute',
+    left: '43%',
+    bottom: 0,
+    zIndex: 1,
+    width: 48,
+    height: 48
+  },
+  cameraIcon: {
+    height: 28,
+    width: 28
+  },
+  footerIcon: {
+    width: 24,
+    height: 24,
+    marginHorizontal: 10
+  },
+  footerRow1Text: {
+    color: 'white',
+  },
+  footerRow2: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    paddingVertical: 8,
+    backgroundColor: '#212121'
+  },
+  footerRow2Item: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  footerRow2Icon: {
+    width: 20,
+    height: 20,
+  },
+  footerRow2Text: {
+    color: '#fff',
+    fontSize: 10,
+  },
 });
 
 export default styles
